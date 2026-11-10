@@ -1,0 +1,389 @@
+/* ================= GENERAL STYLING ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #26364a;
+    line-height: 1.7;
+}
+
+:root {
+    --dark-blue: #092b59;
+    --main-blue: #1769d2;
+    --light-blue: #eaf3ff;
+    --text-grey: #65758b;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.small-heading {
+    color: var(--main-blue);
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.section-heading h2 {
+    color: var(--dark-blue);
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.section-heading h2 span {
+    color: var(--main-blue);
+}
+
+.section-heading > p:last-child {
+    color: var(--text-grey);
+}
+
+
+/* ================= NAVIGATION BAR ================= */
+
+.navbar {
+    padding: 14px 0;
+}
+
+.company-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--dark-blue);
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.company-logo small {
+    display: block;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: var(--main-blue);
+}
+
+.logo-icon {
+    background-color: var(--main-blue);
+    color: white;
+    padding: 9px 10px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.navbar {
+    padding: 14px 0;
+}
+
+.navbar .nav-link {
+    color: #092b59;
+    font-weight: 600;
+    margin: 0 5px;
+}
+
+.navbar .nav-link:hover {
+    color: #1769d2;
+}
+
+.nav-button {
+    border-radius: 25px;
+    padding: 9px 20px;
+}
+
+/* ================= BUTTONS ================= */
+
+.btn-primary {
+    background-color: var(--main-blue);
+    border-color: var(--main-blue);
+    border-radius: 5px;
+    padding: 11px 23px;
+}
+
+.btn-primary:hover {
+    background-color: var(--dark-blue);
+    border-color: var(--dark-blue);
+}
+
+.btn-outline-primary {
+    color: var(--main-blue);
+    border-color: var(--main-blue);
+    border-radius: 5px;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--main-blue);
+    border-color: var(--main-blue);
+}
+
+/* ================= HOME PAGE STYLING ================= */
+
+/* Welcome Banner */
+
+.home-section {
+    background-color: #eaf3ff;
+    padding: 90px 0;
+}
+
+.home-section h1 {
+    color: #092b59;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.home-section h1 span {
+    color: #1769d2;
+}
+
+.home-text {
+    color: #65758b;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.home-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+
+/* Our Services */
+
+.service-card {
+    background-color: white;
+    padding: 30px 22px;
+    border: 1px solid #dce8f7;
+    border-radius: 10px;
+    height: 100%;
+    text-align: center;
+}
+
+.service-icon {
+    background-color: #eaf3ff;
+    color: #1769d2;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 50%;
+    margin: auto;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.service-card h4 {
+    color: #092b59;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.service-card p {
+    color: #65758b;
+    margin-top: 12px;
+}
+
+
+/* Why Choose Us */
+
+.why-section {
+    background-color: #f3f7fc;
+}
+
+.why-card {
+    background-color: white;
+    padding: 25px 15px;
+    border-radius: 10px;
+    text-align: center;
+    height: 100%;
+    border-bottom: 3px solid #1769d2;
+}
+
+.why-card h4 {
+    color: #092b59;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.why-card p {
+    color: #65758b;
+    font-size: 14px;
+}
+
+
+/* Our Technologies */
+
+.tech-card {
+    background-color: #eaf3ff;
+    padding: 30px 10px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.tech-card h4 {
+    color: #1769d2;
+    font-weight: bold;
+}
+
+.tech-card p {
+    color: #65758b;
+    margin-bottom: 0;
+}
+
+
+/* ================= FOOTER ================= */
+
+.footer {
+    background-color: #061d3d;
+    color: white;
+    padding: 50px 0 0;
+    width: 100%;
+}
+
+.footer h3 {
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.footer h6 {
+    color: #8fc2ff;
+    letter-spacing: 4px;
+    font-size: 12px;
+    margin-bottom: 18px;
+}
+
+.footer h5 {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #8fc2ff;
+}
+
+.footer p {
+    color: #d0dcec;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #d0dcec;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer ul li a:hover {
+    color: #8fc2ff;
+}
+
+.footer-button {
+    display: inline-block;
+    background-color: #1769d2;
+    color: white;
+    text-decoration: none;
+    padding: 9px 20px;
+    border-radius: 5px;
+}
+
+.footer-button:hover {
+    background-color: #ffffff;
+    color: #092b59;
+}
+
+.footer-bottom {
+    border-top: 1px solid #536783;
+    margin-top: 30px;
+    padding: 18px 0 5px;
+}
+
+.footer-bottom p {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+
+
+/* Mobile Screen */
+
+@media (max-width: 768px) {
+
+    .home-section {
+        padding: 55px 0;
+    }
+
+    .home-section h1 {
+        font-size: 34px;
+    }
+
+    .home-image {
+        height: 250px;
+    }
+
+    .join-section h2 {
+        font-size: 28px;
+    }
+
+}
+
+/* ================= ABOUT SECTION ================= */
+
+.about-image {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(9, 43, 89, 0.12);
+}
+
+.about-title {
+    color: var(--dark-blue);
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+#about .col-lg-6 > p {
+    color: var(--text-grey);
+}
+
+.about-point {
+    background-color: var(--light-blue);
+    padding: 17px;
+    border-left: 4px solid var(--main-blue);
+    border-radius: 5px;
+    height: 100%;
+}
+
+.about-point h4 {
+    color: var(--dark-blue);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.about-point p {
+    color: var(--text-grey);
+    font-size: 14px;
+    margin-bottom: 0;
+}
